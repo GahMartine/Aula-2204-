@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Validador de CPF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validador de CPF</h1>
+
+    <label for="cpf">Digite um CPF:</label>
+    <input type="text" id="cpf" placeholder="Ex: 123.456.789-09">
+    <button onclick="validarCPF()">Validar</button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

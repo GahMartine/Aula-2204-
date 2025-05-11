@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Números Primos no Intervalo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Números Primos entre Dois Valores</h1>
+
+    <label for="inicio">Valor inicial:</label>
+    <input type="number" id="inicio" placeholder="Ex: 10">
+    <br><br>
+    <label for="fim">Valor final:</label>
+    <input type="number" id="fim" placeholder="Ex: 30">
+    <br><br>
+    <button onclick="mostrarPrimos()">Mostrar Primos</button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

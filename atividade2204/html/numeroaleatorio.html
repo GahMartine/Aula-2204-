@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Adivinhação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #mensagem {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo de Adivinhação</h1>
+
+    <p>Tente adivinhar o número entre 1 e 10!</p>
+    <input type="number" id="palpite" min="1" max="10" placeholder="Seu palpite">
+    <button onclick="verificarPalpite()">Tentar</button>
+
+    <div id="mensagem"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
